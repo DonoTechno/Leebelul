@@ -1,0 +1,401 @@
+#page2-section1{
+	background-size: cover;
+	min-height:1700px;
+	background-position:center;
+	text-align:center;
+	padding-right:20px;
+	padding-left:20px;
+	z-index:90;
+	background-color:$blueblack;
+	background-image:url("../img/img_22.png");
+	background-size:64%;
+	background-repeat:no-repeat;
+	background-position:140% -34%;
+	.accueil{
+		h1{
+			font-size:3.9em;
+			color:white;
+			// margin-top:-500px;
+			margin-top:80px;
+			font-weight:100;
+			font-family: $quicksand;
+			text-align:left;
+			margin-bottom:30px;
+		}
+		h5{
+			text-align:left;
+			font-family: $quicksand;
+			line-height:25px;
+			font-size:1.6em;
+			color:white;
+			margin-bottom:70px;
+		}
+		i{
+			font-size:2.3em;
+			margin-top:5px;
+		}
+		.scroll{
+			margin-top:100px;
+		}
+		span{
+			font-family: $quicksand;
+		}
+		.fa{
+			color:$softred;
+			margin-top:40px;
+		}
+		.border{
+			margin-top:80px;
+			border-top:3px solid white;
+		}
+
+		#liste-menu{
+			list-style:none;
+			#logo{
+				width:130px;
+				height:auto;
+				margin-left:-20px;
+				margin-top:30px;
+			}
+			li{
+				display:inline-block;
+				margin-top:40px;
+				z-index:10;
+				i{
+					color:white;
+					font-size:2em;
+					margin-top:130px;
+				}
+
+				a{
+					color:white;
+					text-decoration:none;
+					font-family:$quicksand;
+					font-size:1.1em;
+					margin-left: 40px;
+					margin-right: 40px;
+					font-weight: bolder;
+					transition:0.3s;
+					&:hover{
+						color:white;
+						transition:0.3s;
+						border-bottom:4px solid white;
+
+					}
+				}
+				.active{
+					color:white;
+					border-bottom:4px solid white;
+				}			
+			}
+		}
+
+		.circle{
+			img{
+				width:64%;
+				height:auto;
+				margin-right:-240px;
+				margin-top:-310px;
+				position:absolute;
+				z-index:0;
+			}
+		}
+		.colonne{
+			h2{
+				color:white;
+				font-family: $quicksand;
+				font-size:2.3em;
+			}
+			h4{
+				color:white;
+				font-family: $quicksand;
+				font-size:1.6em;
+			}
+			.fa{
+				color:white;
+				font-size:3em;
+				border:2px solid white;
+				border-radius:100%;
+				padding:15px;
+			}
+			h3{
+				color:white;
+				font-family: $quicksand;
+			}		
+			p{
+				color:white;
+				font-family: $quicksand;
+				margin-bottom:30px;
+			}
+			h5{
+				font-family:$quicksand;
+				margin-top:60px;
+				text-align:center;
+				color:$softorange;
+			}
+			span{
+				font-size:3.2em;
+				font-family:$quicksand;
+			}
+
+			.bouton{
+				color:white;
+				border:3px solid rgb(255,255,255);
+				text-decoration:none;
+				padding:10px;
+				padding-right:40px;
+				padding-left:40px;
+				font-family: $quicksand;
+				font-weight:600;
+				transition:0.4s;
+				font-size:1.4em;
+				&:hover{
+					background-color:$softred;
+					color:white;
+					transition:0.4s;
+				}
+
+			}
+			.rond{
+				width:80px;
+				height:80px;
+				border:2px solid white;
+				border-radius:100%;
+			}  		
+		}
+	}
+}
+
+#page2-section2{
+	background-color:$softred;
+	min-height:900px;
+	img{
+		width:400px;
+		height:auto;
+		margin-left:-100px;
+		margin-top:-200px;
+
+	}
+	h2{
+		text-align:center;
+		font-size:3.5em;
+		font-family:$quicksand;
+		color:white;
+		margin-top:200px;
+	}
+	h3{
+		margin-top:70px;
+		color:white;
+		font-family:$quicksand;
+		font-size:1.6em;
+	}
+	span{
+		font-family:$quicksand;
+		color:$blueblack;
+	}
+}
+
+
+#page2-section2{
+	padding-bottom:70px;
+	background-color:$softred;
+	min-height:900px;
+	input, textarea {
+		color: black;
+	}
+
+	input:-moz-placeholder, textarea:-moz-placeholder {
+		color: white;
+	}
+
+	input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+		color: white;
+	}
+
+	input.placeholder, textarea.placeholder {
+		color: white;
+	}
+	h6{
+		text-align:justify;
+		font-family: $quicksand;
+		color:white;
+		font-size:1.5em;
+		margin-bottom:70px; 
+		margin-top:20px;  		
+	}
+	.fa{
+		color:white;
+		font-size:3em;
+		border:2px solid white;
+		border-radius:100%;
+		padding:15px;
+		margin-right:40px;
+	}
+	p{
+		color:white;
+		font-family:$quicksand;
+		margin-bottom:40px;
+	}
+	.btn{
+		margin-top:50px;
+		.bouton{
+			color:white;
+			border:3px solid rgb(255, 255, 255);
+			text-decoration:none;
+			padding:10px;
+			padding-right:60px;
+			padding-left:60px;
+			font-family: $quicksand;
+			font-weight:600;
+			margin-left:20px;
+			transition:0.4s;
+			&:hover{
+				background-color:white;
+				color:$softred;
+				transition:0.4s;
+			}
+		}
+	}
+	.titre{
+		h2{
+			text-align:center;
+			margin-bottom:80px;
+		}
+	}
+	#contact-form{ 
+		#form::-moz-placeholder{
+			color:white;
+			font-family: $quicksand;
+			border:5px solid white; 			
+		}
+		.form-control {
+			display: block;
+			width: 100%;
+			height: 34px;
+			padding: 0px 0px;
+			font-size: 14px;
+			line-height: 1.42857143;
+			color: white;
+			background-color: rgba(245,245,245, 0);
+			background-image: none;
+			border-bottom: 3px solid white;
+			border-radius: 4px;
+		}
+		.btn-send{
+			margin-top:40px;
+			color:white;
+			margin-bottom:80px;
+			background-color:$coul_menu_active;
+			border: none;
+		}
+		.btn-successs:hover{
+			background-color:#FFA400;
+		}
+		textarea,input{
+			border-bottom: 1px solid white!important;
+			border-top:1px solid $softred;
+			border-left:1px solid $softred;
+			border-right:1px solid $softred;
+			box-shadow:none;
+			transition:0.5s;
+			&:hover{
+				transition:0.5s;
+				padding-left:20px;					
+			}
+		}
+		textarea:focus,input:focus {
+			border-bottom: 3px solid white!important;
+			border-top:1px solid $softred;
+			border-left:1px solid $softred;
+			border-right:1px solid $softred;
+		}
+	}
+
+	
+}
+
+
+
+// <- - MEDIA QUERIES - ->
+@media screen and (max-width: 1365px) {
+	#page2-section1{
+		padding-bottom:60px;
+	}
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+	#page2-section1{
+		.accueil{
+			.colonne{
+				.rond{
+					width:80px;
+					height:80px;
+					border:2px solid white;
+					border-radius:100%;
+					margin-left:110px;
+				}	
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+	#page2-section2{
+		padding:30px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	#page2-section2{
+		h2{
+			margin-top:5px;
+		}
+	}
+
+}
+@media screen and (max-width: 414px) {
+	#page2-section1{
+		.accueil{ 
+			h1{
+				font-size:3em;
+			}
+}
+}				
+	#page2-section2{
+		h2{
+			font-size:2.6em;
+			margin-top:5px;
+		}
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	#page2-section1{
+		.accueil{ 
+			h1{
+				font-size:2.5em;
+			}
+			h5{
+				font-size:1.4em;
+			}
+			h3{
+				font-size:1.5em;
+			}
+			p{
+				font-size:0.8em;
+			}
+		}	
+	}
+	footer{
+		ul{ 
+			font-size:0.75em;
+
+	}
+	}
+}
